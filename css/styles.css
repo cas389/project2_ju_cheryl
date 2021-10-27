@@ -162,6 +162,15 @@ p {
 	text-align: justify;
 }
 
+.reglink {
+	font-weight: bold;
+	text-decoration: none;
+	color: #104a64;
+}
+.reglink:hover {
+	text-decoration: line-through;
+	text-decoration-color: white;
+}
 
 /*===========================
 
@@ -182,7 +191,7 @@ Home Page - Main Section
 
 .intro-text {
 	background: white;
-	padding-top: 6%;
+	padding: 6%;
 }
 
 .intro-text p {
