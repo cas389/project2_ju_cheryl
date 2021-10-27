@@ -165,7 +165,7 @@ p {
 
 /*===========================
 
-Home Page
+Home Page - Main Section
 
 ===========================*/
 .intro {
@@ -243,7 +243,32 @@ main .hero-button:hover:before, main .hero-button:focus:before, main .hero-butto
 	transform: scaleY(1);
 }
 
+/*===========================
 
+Home Section - Services Section
+
+===========================*/
+
+.services {
+	text-align: center;
+	border-top: 30px solid white;
+	border-bottom: 30px solid white;
+	padding: 2% 0 2% 0;
+}
+
+.home-services {
+	background: #ebece6;
+	margin: 2% 5% 5% 5%;
+	padding: 5%;
+}
+
+.home-services img {
+	width: 20%;
+}
+
+.home-services p {
+	text-align: center;
+}
 
 /*===========================
 
@@ -285,7 +310,9 @@ Responsive Web Coding - 768px by 1024px (Tablet)
 
 ===========================*/
 @media screen and (min-width: 768px) {
-  header {
+
+	/* Header & Navigation Section of Tablet */
+	header {
     height: 150px;
   }
   .logo img {
@@ -316,15 +343,7 @@ Responsive Web Coding - 768px by 1024px (Tablet)
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
   }
-  .intro-text {
-		position: absolute;
-		margin: -48% 0 0 30%;
-		background: none;
-		width: 70%;
-	}
-	.intro-text p {
-		color: white;
-	}
+	/* Headings and Paragraph Styling of Tablet */
 	h1 {
 		font-size: 3.75rem;
 		color: white;
@@ -332,6 +351,16 @@ Responsive Web Coding - 768px by 1024px (Tablet)
 	}
 	h1, h2, h3 {
 		padding-top: 0;
+	}
+	/* Home Page of Tablet */
+	.intro-text {
+		position: absolute;
+		margin: -48% 0 0 30%;
+		background: none;
+		width: 70%;
+	}
+	.intro-text p {
+		color: white;
 	}
 	main .hero-button {
 		font-size: 1.25rem;
@@ -341,10 +370,27 @@ Responsive Web Coding - 768px by 1024px (Tablet)
 	.intro-text p {
 		font-size: 1.5rem;
 	}
+	.home-services {
+		margin-top: 3%;
+		padding: 5%;
+		flex: 1;
+	}
 	.home-image {
 		max-height: 700px;
 		object-fit: cover;
 	}
+	.home-services img {
+		width: 30%;
+	}
+	.services {
+		margin-top: 0;
+	}
+	.home-services-flexbox {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	/* Footer of Tablet */
   footer img {
 		max-width: 20%;
 		float: right;
@@ -360,6 +406,7 @@ Responsive Web Coding - 1366px by 768px (Laptop)
 
 ===========================*/
 @media screen and (min-width: 1366px) {
+	/* Header and Navigation of Laptop */
   .logo {
     width: 10%;
   }
@@ -370,10 +417,24 @@ Responsive Web Coding - 1366px by 768px (Laptop)
   .links ul {
     font-size: 1.5rem;
   }
+	/* Home Page of Laptop */
   .intro-text {
 		margin: -30% 0 0 40%;
 		width: 60%;
   }
+	.home-services-flexbox {
+		margin: 0;
+		padding: 0 2% 1% 2%;
+	}
+	.services {
+		padding: 3% 0 0 0;
+	}
+	.home-services {
+		margin: 3% 2% 3% 2%;
+		padding: 3%;
+		flex: 1;
+	}
+	/* Footer of Laptop */
   footer img {
     max-width: 10%;
   }
