@@ -272,6 +272,27 @@ Home Section - Services Section
 
 /*===========================
 
+Home Section - Portfolio
+
+===========================*/
+
+.portfolio-examples {
+	background: white;
+	padding: 2% 5%;
+}
+
+.portfolio-examples img {
+	width: 100%;
+	object-fit: cover;
+	border: 1px solid black;
+}
+
+.portfolio-examples h2 {
+	padding-bottom: 3%;
+}
+
+/*===========================
+
 Footer
 
 ===========================*/
@@ -385,10 +406,21 @@ Responsive Web Coding - 768px by 1024px (Tablet)
 	.services {
 		margin-top: 0;
 	}
-	.home-services-flexbox {
+	.home-flexbox {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+	.portfolio-examples {
+		margin: 0;
+	}
+	.portfolio-examples h2 {
+		padding: 0;
+		margin-top: -3%;
+	}
+	.portfolio-examples img {
+		flex: 2;
+		margin: 1%;
 	}
 	/* Footer of Tablet */
   footer img {
@@ -422,7 +454,7 @@ Responsive Web Coding - 1366px by 768px (Laptop)
 		margin: -30% 0 0 40%;
 		width: 60%;
   }
-	.home-services-flexbox {
+	.home-flexbox {
 		margin: 0;
 		padding: 0 2% 1% 2%;
 	}
@@ -434,8 +466,28 @@ Responsive Web Coding - 1366px by 768px (Laptop)
 		padding: 3%;
 		flex: 1;
 	}
+	.portfolio-examples {
+		padding: 1% 5% 0 5%;
+	}
+	.portfolio-examples h2 {
+		margin: 0;
+	}
 	/* Footer of Laptop */
   footer img {
     max-width: 10%;
   }
+}
+
+
+/*===========================
+
+Responsive Web Coding - 1920px by 1024 px (Desktop)
+
+===========================*/
+
+@media screen and (min-width: 1500px) {
+	/* Home Page of Desktop */
+	.portfolio-examples img {
+		max-width: 25%;
+	}
 }
