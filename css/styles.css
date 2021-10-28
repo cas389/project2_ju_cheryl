@@ -25,7 +25,6 @@ Universal Styling
 body {
 	background: #f5f5f3;
 }
-
 /*===========================
 
 Header and Navigation
@@ -311,15 +310,9 @@ Secondary Page - General
 	background: white;
 	margin-top: -1%;
 }
-
-.secondary-page, .secondary-page-one-column {
+.secondary-flex-main {
 	background: white;
-	padding: 0% 7% 7% 7%;
-	height: 100%;
-}
-
-aside {
-	padding: 7%;
+	padding: 2rem;
 }
 
 /*===========================
@@ -498,25 +491,28 @@ Responsive Web Coding - 768px by 1024px (Tablet)
 		width: 60%;
 		height: 185vh;
 	}
-	.secondary-page-one-column {
-		background: white;
-		padding: 5%;
-	}
-	aside {
-		width: 40%;
-		float: left;
-		padding: 3% 3% 0 5%;
-	}
-	.secondary-intro-text h1, .secondary-intro-text-right h1 {
+	.secondary-intro-text h1 {
 		color: white;
 		position: absolute;
 		text-shadow: 2px 2px 8px black;
-	}
-	.secondary-intro-text h1 {
 		margin: -17% 0 0 5%;
 	}
-	.secondary-intro-text-right h1 {
-		margin: -17% 0 0 45%;
+	/* About Page */
+	.about-me-flexbox {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: stretch
+	}
+	.secondary-flex-main {
+		padding: 1rem;
+  	flex: 80%;
+		order: 2;
+}
+	.secondary-flex-sidebar {
+		padding: 1rem;
+		flex: 20%;
+		order: 1;
 	}
 	/* Footer of Tablet */
   footer img {
