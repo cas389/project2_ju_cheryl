@@ -101,7 +101,7 @@
 
 
           <!-- Form -->
-          		<form id="contact-form" action="/" method="post">
+              <form id="contact-form" action="form.php" method="POST" action="form.php" onsubmit="return validateForm(this)">
           			<h3>Get in touch</h3>
           			<h4><a href="http://www.jqueryscript.net/"><strong>Free jQuery Plugins and Tutorials</strong></a> - Providing tons of <em>Jquery Plugins</em>,<em> Javascript Libraries, Html5, CSS3 Scripts</em> for web developers to free download.</h4>
           			<div>
@@ -124,8 +124,8 @@
           			</div>
           			<div>
           				<label>
-          					<span>Website: (required)</span>
-          					<input placeholder="Begin with http://" type="url" tabindex="4" required>
+          					<span>Website:</span>
+          					<input placeholder="Begin with http://" type="url" tabindex="4">
           				</label>
           			</div>
           			<div>
