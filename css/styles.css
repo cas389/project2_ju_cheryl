@@ -578,9 +578,6 @@ Responsive Web Coding - 1366px by 768px (Laptop)
 		float: left;
 		padding: 3% 3% 0 3%;
 	}
-	.secondary-intro-text-right h1, .secondary-intro-text h1 {
-		margin: -20% 0 0 60%;
-	}
 	.secondary-page {
 		height: 160vh;
 	}
