@@ -42,7 +42,7 @@
 	<main class="contact-me-page">
 
 
-    <h1>Thank you for your enquiry</h1>
+    <h2>Thank you for your inquiry</h2>
     <p>Thanks for your interest. we have received your message, and we will be in touch shortly.</p>
     <p><a href="index.html">Continue</a>.</p>
   </main>

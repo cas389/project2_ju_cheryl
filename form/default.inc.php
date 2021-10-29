@@ -41,7 +41,7 @@
 
 	<main class="contact-me-page">
 
-    <h1>Hello</h1>
+    <h2>Hello</h2>
     <p>Form processor by <a href="http://www.inventpartners.com">Invent Partners Web Design York</a>.</p>
 </main>
 
