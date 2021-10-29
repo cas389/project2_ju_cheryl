@@ -42,7 +42,7 @@
 	<main class="contact-me-page">
 
     <h2>Hello</h2>
-    <p>Form processor by <a href="http://www.inventpartners.com">Invent Partners Web Design York</a>.</p>
+    <p>Form processor by <a class="reglink" href="http://www.inventpartners.com">Invent Partners Web Design York</a>.</p>
 </main>
 
 		<!--   Footer Section    -->

@@ -169,7 +169,7 @@ class Form{
 		}
 
 		// Send the email
-		mail($this->destination_email , $prefix . 'inquiry from ' . $this->site_name . ' website' , $message , 'From:' . $sender_email);
+		mail($this->destination_email , $prefix . 'Inquiry from ' . $this->site_name . ' website' , $message , 'From:' . $sender_email);
 
 	}
 

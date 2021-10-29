@@ -42,7 +42,7 @@
 	<main class="contact-me-page">
 		<h2>Missing fields</h2>
 		<p>Sorry, you have not completed all of the required fields.</p>
-		<p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
+		<p>Please hit <a class="reglink" href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>
 
 		<ul>
 		<?php
@@ -52,7 +52,7 @@
 		?>
 		</ul>
 
-		<p><strong><a href="#" onClick="history.go(-1)">Back to form</a></strong></p>
+		<p><strong><a class="reglink" href="#" onClick="history.go(-1)">Back to form</a></strong></p>
 	</main>
 		<!--   Footer Section    -->
 		<footer>
