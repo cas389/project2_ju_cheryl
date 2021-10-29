@@ -58,90 +58,43 @@
           </section>
         </section>
 
-        <main>
-
-
+        <main class="contact-me-page">
           <!-- Contact Form -->
-                  <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+          <p>Have a question? A comment? Want to work with me? Fill out this form below, and I'll be in contact soon!</p>
+          <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+            <div class="first-name input-section">
+              <label for="firstname">First Name</label>
+              <input type="text" name="req_firstname" id="firstname" placeholder="ex. Jane" />
+            </div>
 
-                    <div class="first-name input-section">
-                      <label for="firstname" class="label_input_wrap">First Name:</label>
-                      <input type="text" name="req_firstname" id="firstname" placeholder="ex. Jane" />
-                    </div>
+            <div class="last-name input-section">
+              <label for="lastname">Last Name</label>
+              <input type="text" name="req_lastname" id="lastname" placeholder="ex. Doe" />
+            </div>
 
-                    <div class="last-name input-section">
-                      <label for="lastname" class="label_input_wrap">Last Name:</label>
-                      <input type="text" name="req_lastname" id="lastname" placeholder="ex. Doe" />
-                    </div>
+            <div class="email input-section">
+              <label for="email">Email</label>
+              <input type="email" name="req_email" id="email" placeholder="ex. JaneDoe@website.com">
+            </div>
 
-                    <div class="email input-section">
-                      <label for="email" class="label_input_wrap">Email:</label>
-                      <input type="email" name="req_email" id="email" placeholder="ex. JaneDoe@website.com">
-                    </div>
+            <div class="telephone input-section">
+              <label for="telephone">Telephone Number</label>
+              <input type="tel" name="req_telephone" id="telephone" placeholder="555-555-5555">
+            </div>
 
-                    <div class="telephone input-section">
-                      <label for="telephone" class="label_input_wrap">Telephone Number:</label>
-                      <input type="tel" name="req_telephone" id="telephone" placeholder="555-555-5555">
-                    </div>
+            <div class="comments input-section">
+              <label for="comments">Comments</label>
+              <textarea name="comments" id="comments" cols="55" rows="15" placeholder="Write your message here."></textarea>
+            </div>
 
-                    <div class="comments input-section">
-                      <label for="comments" class="label_input_wrap">Comments:</label>
-                      <textarea name="comments" id="comments" cols="55" rows="15" placeholder="Write your message here."></textarea>
-                    </div>
+            <div class="reset">
+              <input type="reset" value="Clear Form">
+            </div>
 
-                    <div class="reset">
-                      <input type="reset" value="Start Over">
-                    </div>
-
-                    <div class="submit">
-                      <input type="submit" value="Submit!">
-                    </div>
-                  </form>
-
-
-
-          <!-- Form -->
-              <form id="contact-form" action="form.php" method="POST" action="form.php" onsubmit="return validateForm(this)">
-          			<h3>Get in touch</h3>
-          			<h4><a href="http://www.jqueryscript.net/"><strong>Free jQuery Plugins and Tutorials</strong></a> - Providing tons of <em>Jquery Plugins</em>,<em> Javascript Libraries, Html5, CSS3 Scripts</em> for web developers to free download.</h4>
-          			<div>
-          				<label>
-          					<span>Name: (required)</span>
-          					<input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
-          				</label>
-          			</div>
-          			<div>
-          				<label>
-          					<span>Email: (required)</span>
-          					<input placeholder="Please enter your email address" type="email" tabindex="2" required>
-          				</label>
-          			</div>
-          			<div>
-          				<label>
-          					<span>Telephone: (required)</span>
-          					<input placeholder="Please enter your number" type="tel" tabindex="3" required>
-          				</label>
-          			</div>
-          			<div>
-          				<label>
-          					<span>Website:</span>
-          					<input placeholder="Begin with http://" type="url" tabindex="4">
-          				</label>
-          			</div>
-          			<div>
-          				<label>
-          					<span>Message: (required)</span>
-          					<textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
-          				</label>
-          			</div>
-          			<div>
-          				<button name="submit" type="submit" id="contact-submit">Send Email</button>
-          			</div>
-          		</form>
-
-
-
-
+            <div class="submit">
+              <input type="submit" value="Submit">
+            </div>
+          </form>
         </main>
         <!--   Footer Section    -->
         <footer>

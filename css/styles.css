@@ -369,110 +369,51 @@ figcaption {
 Contact Page
 
 ===========================*/
-#contact-form input[type="text"],
-#contact-form input[type="email"],
-#contact-form input[type="tel"],
-#contact-form input[type="url"],
-#contact-form textarea,
-#contact-form button[type="submit"] {
-	font:400 12px/12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+.contact-me-page {
+	margin: 0 auto;
+	max-width: 90%;
 }
-#contact-form {
-	text-shadow:0 1px 0 #FFF;
-	border-radius:4px;
-	-webkit-border-radius:4px;
-	-moz-border-radius:4px;
-	background:#F9F9F9;
-	padding:25px;
+.contact-form {
+  margin: 0 auto;
+  max-width: 80%;
 }
-#contact-form h3 {
-	color:#991D57;
-	display:block;
-	font-size:28px;
+.contact-form,
+.contact-us p {
+  line-height: 1.5rem;
+  font-size: 1.10rem;
+  text-align: center;
 }
-#contact-form h4 {
-	margin:5px 0 15px;
-	display:block;
-	font-size:13px;
+input,
+textarea  {
+  border: 1px solid #00bfbb;
+  border-radius: .25rem;
+  padding: .5rem .15rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: #f5f5f3;
+  font-family: 'Raleway', sans-serif;
 }
-#contact-form label span {
-	cursor:pointer;
-	color:#991D57;
-	display:block;
-	margin:5px 0;
-	font-weight:900;
+label {
+  color: #00bfbb;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+	font-weight: bold;
 }
-#contact-form input[type="text"],
-#contact-form input[type="email"],
-#contact-form input[type="tel"],
-#contact-form input[type="url"],
-#contact-form textarea {
-	width:100%;
-	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
-	border:1px solid #CCC;
-	background:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-	border-radius:5px;
-}
-#contact-form input[type="text"]:hover,
-#contact-form input[type="email"]:hover,
-#contact-form input[type="tel"]:hover,
-#contact-form input[type="url"]:hover,
-#contact-form textarea:hover {
-	-webkit-transition:border-color 0.3s ease-in-out;
-	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #AAA;
-}
-#contact-form textarea {
-	height:100px;
-	max-width:100%;
-}
-#contact-form button[type="submit"] {
-	cursor:pointer;
-	width:100%;
-	border:none;
-	background:#991D57;
-	background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
-	background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
-	background-image:-webkit-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
-	color:#FFF;
-	margin:0 0 5px;
-	padding:10px;
-	border-radius:5px;
-}
-#contact-form button[type="submit"]:hover {
-	background-image:linear-gradient(bottom, #9C215A 0%, #A82767 52%);
-	background-image:-moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
-	background-image:-webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
-	-webkit-transition:background 0.3s ease-in-out;
-	-moz-transition:background 0.3s ease-in-out;
-	transition:background-color 0.3s ease-in-out;
-}
-#contact-form button[type="submit"]:active {
-	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
-}
-#contact-form input:focus,
-#contact-form textarea:focus {
-	outline:0;
-	border:1px solid #999;
-}
-::-webkit-input-placeholder {
-    color:#888;
-}
-:-moz-placeholder {
-    color:#888;
-}
-::-moz-placeholder {
-    color:#888;
-}
-:-ms-input-placeholder {
-    color:#888;
+.reset input,
+.submit input {
+  background: #00bfbb;
+  color: white;
+	padding: .5rem .15rem;
+	font-size: 1.10rem;
+  transition: .5s;
 }
 
+.reset input:hover,
+.submit input:hover {
+  background: white;
+  color: #00bfbb;
+  transition: .5s;
+}
 
 /*===========================
 
@@ -514,7 +455,6 @@ Responsive Web Coding - 768px by 1024px (Tablet)
 
 ===========================*/
 @media screen and (min-width: 768px) {
-
 	/* Header & Navigation Section of Tablet */
 	header {
     height: 150px;
@@ -635,6 +575,19 @@ Responsive Web Coding - 768px by 1024px (Tablet)
 		width: 90%;
 		margin: 0 auto;
 		border-right: 5px solid #f5f5f3;
+	}
+	/* Contact Page*/
+	.contact-form {
+		margin: 0 auto;
+		max-width: 50%;
+		padding-bottom: 1rem;
+	}
+	.contact-me-page {
+		margin-top: 5rem;
+	}
+	.contact-me-page p {
+		text-align: center;
+		font-size: 1.25rem;
 	}
 	/* Footer of Tablet */
   footer img {
