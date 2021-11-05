@@ -10,12 +10,14 @@
     <!--   Linked Style Sheets    -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="../../css/styles.css">
+    <!--   Linked Style Sheets for Lightbox from, https://lokeshdhakar.com/projects/lightbox2/    -->
+    <link href="../../css/lightbox.css" rel="stylesheet" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-    <title>Cheryl Ju | Portfolio - Community Forum</title>
+    <title>Cheryl Ju | Portfolio | BMPC - Community Forum</title>
   </head>
 
   <!--   Body Section of HTML Document    -->
@@ -52,39 +54,53 @@
 
       <!--   Main Section of Content   -->
         <main>
-
-          <div class="about-me-flexbox">
-            <section class="secondary-flex-main">
-              <h2 class="portfolio-page">2021 Community Forum</h2>
-              <h3 class="portfolio-page">Bryn Mawr Presbyterian Church</h3>
-              <p>&nbsp;</p>
-              <p>The Community Forum is a yearly event at Bryn Mawr Presbyterian Church. Originally scheduled for April 27, 2020, this year's event was pushed back to 2021 due to the COVID-19 Pandem.</p>
-              <p>Here are the different items created for this years Community Forum with yossi Klein Halevi.</p>
-              <figure>
-                <img class="figure-image" src="../../images/projects/bmpc/community-forum/flyer-2021.jpg" alt="2021 Community Forum Flyer">
-                <figcaption>2021 Version of the Community Forum Flyer</figcaption>
-              </figure>
-              <figure>
-                <img class="figure-image" src="../../images/projects/bmpc/community-forum/newspaper-ad.jpg" alt="2021 Community Forum Newspaper Advertisement">
-                <figcaption>Community Forum Newspaper Advertisment</figcaption>
-              </figure>
+          <div class="portfolio-flexbox">
+            <section class="project-header">
+              <h2>Community Forum</h2>
             </section>
 
-            <!--   Side Section of Content   -->
-            <aside class="secondary-flex-sidebar">
-              <h2 class="portfolio-page">Project Details</h2>
-
-              <h4>Company</h4>
-              <p>Bryn Mawr Presbyterian Church</p>
-
-              <h4>Date Created</h4>
-              <p>October 2021</p>
-
+            <section class="project-details">
+              <h4>Project Type</h4>
+                <p>Flyer and Advertisment</p>
+              <h4>Role</h4>
+                <p>Designer</p>
+              <h4>Client</h4>
+                <p>Bryn Mawr Presbyterian Church</p>
               <h4>Tools Used</h4>
-              <p>Adobe PhotoShop<br/>
-                Adobe Illustrator</p>
-            </aside>
+                <p>Photoshop<br/>
+                Illustrator</p>
+              <h4>Year</h4>
+                <p class="last">2021</p>
+            </section>
+
+            <section class="project-details-desc">
+              <h4>Project Details</h4>
+                <p>The Community Forum is a yearly event at Bryn Mawr Presbyterian Church. Originally scheduled for April 27, 2020, this year's event was pushed back to 2021 due to the COVID-19 Pandem.</p>
+                <p>Here are the different items created for this years Community Forum with Yossi Klein Halevi.</p>
+            </section>
           </div>
+
+            <section class="break">
+              <hr class="portfolio-hr">
+              <h2>Images</h2>
+            </section>
+
+            <section class="project-images">
+              <figure class="portfolio-box">
+                <figcaption>2021 Community Forum Flyer</figcaption>
+                <a href="../../images/portfolio/bmpc/community-forum/flyer-2021.jpg" data-lightbox="community-forum" data-title="2021 Community Forum Flyer.">
+                  <img class="portfolo-img" src="../../images/portfolio/bmpc/community-forum/flyer-2021.jpg" alt="2021 Community Forum Flyer."/>
+                </a>
+              </figure>
+
+              <figure class="portfolio-box">
+                <figcaption>2021 Community Forum Newspaper Advertisment</figcaption>
+                <a href="../../images/portfolio/bmpc/community-forum/newspaper-ad.jpg" data-lightbox="community-forum" data-title="2021 Community Forum Newspaper Advertisment">
+                  <img class="portfolo-img" src="../../images/portfolio/bmpc/community-forum/newspaper-ad.jpg" alt="2021 Community Forum Newspaper Advertisment"/>
+                </a>
+              </figure>
+
+            </section>
         </main>
         <!--   Footer Section    -->
         <footer>
@@ -108,5 +124,7 @@
     <!-- Used for Navigation, from https://www.codehim.com/menu/responsive-hamburger-menu-with-jquery-css/ -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../../js/javascript.js" charset="utf-8"></script>
+    <!-- Used for Navigation, from https://lokeshdhakar.com/projects/lightbox2/ -->
+    <script src="../../js/lightbox.js"></script>
   </body>
 </html>
