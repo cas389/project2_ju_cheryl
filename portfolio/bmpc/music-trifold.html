@@ -10,12 +10,14 @@
     <!--   Linked Style Sheets    -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="../../css/styles.css">
+    <!--   Linked Style Sheets for Lightbox from, https://lokeshdhakar.com/projects/lightbox2/    -->
+    <link href="../../css/lightbox.css" rel="stylesheet" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-    <title>Cheryl Ju | Portfolio - Music and Fine Arts Trifold</title>
+    <title>Cheryl Ju | Portfolio | BMPC - Concerts with a Cause</title>
   </head>
 
   <!--   Body Section of HTML Document    -->
@@ -52,39 +54,67 @@
 
       <!--   Main Section of Content   -->
         <main>
-          <div class="about-me-flexbox">
-            <section class="secondary-flex-main">
-              <h2 class="portfolio-page">Music and Fine Arts Trifold Brochure</h2>
-              <h3 class="portfolio-page">Bryn Mawr Presbyterian Church</h3>
-              <p>&nbsp;</p>
-              <p>Starting with the "Concerts with a Cause" logo, I created a trifold brochure for the Music and Fine Arts department to highlight all of their upcoming concerts.</p>
-              <figure>
-                <img class="portfolo-img-logo" src="../../images/projects/bmpc/music-arts/concerts-with-a-cause-logo.svg" alt="Concerts with a Cause Logo">
-                <figcaption>Concerts with a Cause Logo</figcaption>
-              </figure>
-
-              <figure>
-                <img class="portfolo-img" src="../../images/projects/bmpc/music-arts/music-trifold.jpg" alt="Trifold Brochure">
-                <figcaption>The Music and Fine Arts Department Trifold Brochure</figcaption>
-              </figure>
+          <div class="portfolio-flexbox">
+            <section class="project-header">
+              <h2>Concerts with a Cause</h2>
             </section>
 
-            <!--   Side Section of Content   -->
-            <aside class="secondary-flex-sidebar">
-              <h2 class="portfolio-page">Project Details</h2>
-
-              <h4>Company</h4>
-              <p>Bryn Mawr Presbyterian Church</p>
-
-              <h4>Date Created</h4>
-              <p>August 2019</p>
-
+            <section class="project-details">
+              <h4>Project Type</h4>
+                <p>Trifold Brochure and Logo Design</p>
+              <h4>Role</h4>
+                <p>Designer</p>
+              <h4>Client</h4>
+                <p>Bryn Mawr Presbyterian Church, Music and Fine Arts Department</p>
               <h4>Tools Used</h4>
-              <p>Adobe PhotoShop<br/>
-                Adobe Illustrator<br/>
-                Adobe InDesign</p>
-            </aside>
+                <p>Photoshop<br/>
+                Illustrator<br/>
+              InDesign</p>
+              <h4>Year</h4>
+                <p class="last">2021</p>
+            </section>
+
+            <section class="project-details-desc">
+              <h4>Project Details</h4>
+                <p>In 2019, BMPC's Music and Fine Arts Department, created the Concerts with a Cause music series. Throughout 2019 into 2020, they hosted numerous amounts of concerts up until the COVID-19 pandemic hit. Starting with the logo I created, this expanded into a trifold brochure for the department.
+            </section>
           </div>
+
+            <section class="break">
+              <hr class="portfolio-hr">
+              <h2>Images</h2>
+            </section>
+
+            <section class="project-images">
+              <figure class="portfolio-box">
+                <figcaption>Concerts with a Cause Logo</figcaption>
+                <a href="../../images/portfolio/bmpc/music-arts/concerts-cause/concerts-with-a-cause-logo.svg" data-lightbox="concerts-cause" data-title="Concerts with a Cause Logo.">
+                  <img class="portfolo-img" src="../../images/portfolio/bmpc/music-arts/concerts-cause/concerts-with-a-cause-logo.svg" alt="Concerts with a Cause Logo."/>
+                </a>
+              </figure>
+
+              <figure class="portfolio-box">
+                <figcaption>Concerts with a Cause Trifold Brochure</figcaption>
+                <a href="../../images/portfolio/bmpc/music-arts/concerts-cause/music-trifold.jpg" alt="Trifold Brochure" data-lightbox="concerts-cause" data-title="Concerts with a Cause Trifold Brochure">
+                  <img class="portfolo-img" src="../../images/portfolio/bmpc/music-arts/concerts-cause/music-trifold.jpg" alt="Trifold Brochure" alt="Concerts with a Cause Trifold Brochure"/>
+                </a>
+              </figure>
+
+              <figure class="portfolio-box">
+                <figcaption>Side 1 of Trifold</figcaption>
+                <a href="../../images/portfolio/bmpc/music-arts/concerts-cause/trifold-1.jpg" alt="Side 1 of Trifold" data-lightbox="concerts-cause" data-title="Concerts with a Cause Trifold Brochure">
+                  <img class="portfolo-img" src="../../images/portfolio/bmpc/music-arts/concerts-cause/trifold-1.jpg" alt="Trifold Brochure" alt="Side 1 of Trifold"/>
+                </a>
+              </figure>
+
+              <figure class="portfolio-box">
+                <figcaption>Side 2 of Trifold</figcaption>
+                <a href="../../images/portfolio/bmpc/music-arts/concerts-cause/trifold-2.jpg" alt="Side 2 of Trifold" data-lightbox="concerts-cause" data-title="Concerts with a Cause Trifold Brochure">
+                  <img class="portfolo-img" src="../../images/portfolio/bmpc/music-arts/concerts-cause/trifold-2.jpg" alt="Trifold Brochure" alt="Side 2 of Trifold"/>
+                </a>
+              </figure>
+
+            </section>
         </main>
         <!--   Footer Section    -->
         <footer>
@@ -108,5 +138,7 @@
     <!-- Used for Navigation, from https://www.codehim.com/menu/responsive-hamburger-menu-with-jquery-css/ -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../../js/javascript.js" charset="utf-8"></script>
+    <!-- Used for Navigation, from https://lokeshdhakar.com/projects/lightbox2/ -->
+    <script src="../../js/lightbox.js"></script>
   </body>
 </html>

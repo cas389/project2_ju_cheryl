@@ -506,7 +506,13 @@ Portfolio Section
 	width: 80%;
 	margin: 0 auto;
 }
-
+.project-images {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
 /*===========================
 
 Footer
@@ -843,13 +849,6 @@ Responsive Web Coding - 1366px by 768px (Laptop)
 	}
 	.portfolio-box {
 		width: 45%;
-	}
-	.project-images {
-		display: flex;
-		justify-content: center;
-		align-items: baseline;
-		flex-wrap: wrap;
-		align-content: space-around;
 	}
 	/* Footer of Laptop */
   footer img {
