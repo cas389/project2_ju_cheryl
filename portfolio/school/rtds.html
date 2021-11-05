@@ -10,6 +10,8 @@
     <!--   Linked Style Sheets    -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="../../css/styles.css">
+    <!--   Linked Style Sheets for Lightbox from, https://lokeshdhakar.com/projects/lightbox2/    -->
+    <link href="../../css/lightbox.css" rel="stylesheet" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -52,25 +54,63 @@
 
       <!--   Main Section of Content   -->
         <main>
+          <div class="portfolio-flexbox">
+            <section class="project-header">
+              <h2>Rose Tree Day School</h2>
+            </section>
 
-          <aside class="project-details">
-            <h2>Rose Tree Day School</h2>
-            <h3>Project Type</h3>
-              <p>School Project</p>
-            <h3>Role</h3>
-              <p>Designer</p>
-            <h3>Tools Used</h3>
-              <p>Photoshop</p>
-            <h3>Year</h3>
-              <p>2020</p>
-            <h3>Project Details</h3>
-              <p>This is a website redesign for the preschool, Rose Tree Day School. It was created as a school project as a website mockup. Utalizing stock images, I created this mockup in PhotoShop for my VIC5325 - Digital Imagery in Web Design class at the University of Flordia.</p>
-          </aside>
+            <section class="project-details">
+              <h4>Project Type</h4>
+                <p>School Project</p>
+              <h4>Role</h4>
+                <p>Designer</p>
+              <h4>Tools Used</h4>
+                <p>Photoshop</p>
+              <h4>Year</h4>
+                <p class="last">2020</p>
+            </section>
 
-          <section class="project-images">
-            <h2></h2>
-          </section>
+            <section class="project-details-desc">
+              <h4>Project Details</h4>
+                <p>This is a website redesign for the preschool, Rose Tree Day School. It was created as a school project as a website mockup. Utalizing stock images, I created this mockup in PhotoShop for my VIC5325 - Digital Imagery in Web Design class at the University of Flordia.</p>
+            </section>
+          </div>
 
+            <section class="break">
+              <hr class="portfolio-hr">
+              <h2>Images</h2>
+            </section>
+
+            <section class="project-images">
+              <figure class="portfolio-box">
+                <figcaption>Mockup of website on a computer.</figcaption>
+                <a href="../../images/portfolio/school/rtds/rtds-website.jpg" data-lightbox="rtds-website" data-title="Mockup of website on a computer.">
+                  <img class="portfolo-img" src="../../images/portfolio/school/rtds/rtds-website.jpg" alt="Mockup on computer."/>
+                </a>
+              </figure>
+
+              <figure class="portfolio-box">
+                <figcaption>Mockup of website on a phone.</figcaption>
+                <a href="../../images/portfolio/school/rtds/rtds-phone.jpg" data-lightbox="rtds-website" data-title="Mockup of website on a phone">
+                  <img class="portfolo-img" src="../../images/portfolio/school/rtds/rtds-phone.jpg" alt="Mockup on phone."/>
+                </a>
+              </figure>
+
+              <figure class="portfolio-box">
+                <figcaption>Entire Desktop Version of Mockup</figcaption>
+                <a href="../../images/portfolio/school/rtds/rtds-redesign-desktop.png" data-lightbox="rtds-website" data-title="Entire Desktop Version of Mockup.">
+                  <img class="portfolo-img" src="../../images/portfolio/school/rtds/rtds-redesign-desktop.png" alt="Desktop Version of Website"/>
+                </a>
+              </figure>
+
+              <figure class="portfolio-box">
+                <figcaption>Entire Mobile Version of Mockup</figcaption>
+                <a href="../../images/portfolio/school/rtds/rtds-redesign-mobile.png" data-lightbox="rtds-website" data-title="Entire Mobile Version of Mockup.">
+                  <img class="portfolo-img" src="../../images/portfolio/school/rtds/rtds-redesign-mobile.png" alt="Mobile Version of Website"/>
+                </a>
+              </figure>
+
+            </section>
         </main>
         <!--   Footer Section    -->
         <footer>
@@ -94,5 +134,7 @@
     <!-- Used for Navigation, from https://www.codehim.com/menu/responsive-hamburger-menu-with-jquery-css/ -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../../js/javascript.js" charset="utf-8"></script>
+    <!-- Used for Navigation, from https://lokeshdhakar.com/projects/lightbox2/ -->
+    <script src="../../js/lightbox.js"></script>
   </body>
 </html>
