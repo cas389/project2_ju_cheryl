@@ -9,7 +9,7 @@
 	<nav class="links">
 		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="projects.html">Projects</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
 			<li><a href="https://www.dejudesigns.com/" target="_blank">Shop</a></li>
 			<li><a href="about.html">About</a></li>
 			<li><a href="contact.html">Contact</a></li>
@@ -20,7 +20,7 @@
 	<nav class="hamburger-menu">
 		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="projects.html">Projects</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
 			<li><a href="https://www.dejudesigns.com/" target="_blank">Shop</a></li>
 			<li><a href="about.html">About</a></li>
 			<li><a href="contact.html">Contact</a></li>
