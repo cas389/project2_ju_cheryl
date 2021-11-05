@@ -10,12 +10,14 @@
     <!--   Linked Style Sheets    -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="../../css/styles.css">
+    <!--   Linked Style Sheets for Lightbox from, https://lokeshdhakar.com/projects/lightbox2/    -->
+    <link href="../../css/lightbox.css" rel="stylesheet" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 
-    <title>Cheryl Ju | Portfolio - Senior Adults Postcard</title>
+    <title>Cheryl Ju | Portfolio | BMPC - Senior Adults</title>
   </head>
 
   <!--   Body Section of HTML Document    -->
@@ -52,33 +54,58 @@
 
       <!--   Main Section of Content   -->
         <main>
-          <div class="about-me-flexbox">
-            <section class="secondary-flex-main">
-              <h2 class="portfolio-page">Senior Adults Postcard</h2>
-              <h3 class="portfolio-page">Bryn Mawr Presbyterian Church</h3>
-              <p>&nbsp;</p>
-              <p>Created for Rally Day 2021, this postcard was created for the Senior Adults at Bryn Mawr Presbyterian Church.</p>
-
-              <figure>
-                <img class="portfolo-img" src="../../images/projects/bmpc/senior-adults/postcard.jpg" alt="Senior Adult Postcard">
-                <figcaption>Senior Adult Postcard</figcaption>
-              </figure>
+          <div class="portfolio-flexbox">
+            <section class="project-header">
+              <h2>Senior Adults Postcard</h2>
             </section>
 
-            <!--   Side Section of Content   -->
-            <aside class="secondary-flex-sidebar">
-              <h2 class="portfolio-page">Project Details</h2>
-
-              <h4>Company</h4>
-              <p>Bryn Mawr Presbyterian Church</p>
-
-              <h4>Date Created</h4>
-              <p>August 2021</p>
-
+            <section class="project-details">
+              <h4>Project Type</h4>
+                <p>Postcard</p>
+              <h4>Role</h4>
+                <p>Designer</p>
+              <h4>Client</h4>
+                <p>Bryn Mawr Presbyterian Church, Senior Adults Department</p>
               <h4>Tools Used</h4>
-              <p>Adobe Illustrator</p>
-            </aside>
+                <p>Illustrator</p>
+              <h4>Year</h4>
+                <p class="last">2021</p>
+            </section>
+
+            <section class="project-details-desc">
+              <h4>Project Details</h4>
+                <p>Created for Rally Day 2021, this postcard was created for the Senior Adults at Bryn Mawr Presbyterian Church.</p>
+            </section>
           </div>
+
+            <section class="break">
+              <hr class="portfolio-hr">
+              <h2>Images</h2>
+            </section>
+
+            <section class="project-images">
+              <figure class="portfolio-box">
+                <figcaption>Senior Adult Postcard</figcaption>
+                <a href="../../images/portfolio/bmpc/senior-adults/postcard/postcard.jpg" data-lightbox="sd-postcard" data-title="Senior Adult Postcard.">
+                  <img class="portfolo-img" src="../../images/portfolio/bmpc/senior-adults/postcard/postcard.jpg" alt="Senior Adult Postcard."/>
+                </a>
+              </figure>
+
+              <figure class="portfolio-box">
+                <figcaption>Senior Adult Postcard - Side 1</figcaption>
+                <a href="../../images/portfolio/bmpc/senior-adults/postcard/rallyday-postcard1.jpg" data-lightbox="sd-postcard" data-title="Senior Adult Postcard - Side 1">
+                  <img class="portfolo-img" src="../../images/portfolio/bmpc/senior-adults/postcard/rallyday-postcard1.jpg" alt="Senior Adult Postcard - Side 1"/>
+                </a>
+              </figure>
+
+              <figure class="portfolio-box">
+                <figcaption>Senior Adult Postcard - Side 2</figcaption>
+                <a href="../../images/portfolio/bmpc/senior-adults/postcard/rallyday-postcard2.jpg" data-lightbox="sd-postcard" data-title="Senior Adult Postcard - Side 2.">
+                  <img class="portfolo-img" src="../../images/portfolio/bmpc/senior-adults/postcard/rallyday-postcard2.jpg" alt="Senior Adult Postcard - Side 2."/>
+                </a>
+              </figure>
+
+            </section>
         </main>
         <!--   Footer Section    -->
         <footer>
@@ -102,5 +129,7 @@
     <!-- Used for Navigation, from https://www.codehim.com/menu/responsive-hamburger-menu-with-jquery-css/ -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../../js/javascript.js" charset="utf-8"></script>
+    <!-- Used for Navigation, from https://lokeshdhakar.com/projects/lightbox2/ -->
+    <script src="../../js/lightbox.js"></script>
   </body>
 </html>
